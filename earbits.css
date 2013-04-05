@@ -1,5 +1,4 @@
-var bt_css = {
-'.header' : {
+var bt_css = {'.header' : {
 display : 'none'
 },
 
@@ -18,6 +17,43 @@ display:'none'
 
 'nav#menu .nav-content':{
 'padding-bottom':'0px'
+},
+
+'#page':{
+'padding-lef't : '10px',
+'padding-top' : '0px'
+},
+
+'li':{
+float:'left'
+},
+
+'#current-track':{
+display:'none'
+},
+
+'#page.page-shown-home > section, #page.page-shown-favorites > section, #page.page-shown-history > section, #page.page-shown-genres > section, #page.page-shown-mixes > section, #page.page-shown-static > section':{
+'margin-top':'10px'
+},
+
+'#footer':{
+display:'none'
+},
+
+'.btn-fb':{
+display:'none'
+},
+
+'.btn-twitter':{
+display:'none'
+},
+
+'.btn-like':{
+display:'none'
+},
+
+'#header-auth':{
+display:'none'
 }
 }
 
