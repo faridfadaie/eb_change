@@ -19,7 +19,6 @@ display:'none'
 'nav#menu .nav-content':{
 'padding-bottom':'0px'
 }
-}
 
 for (var i in bt_css}{
 $(i).css(bt_css[i]);
