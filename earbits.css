@@ -22,6 +22,5 @@ display:'none'
 }
 
 for (var i in bt_css){
-alert(i);
 $(i).css(bt_css[i]);
 }
