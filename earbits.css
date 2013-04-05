@@ -20,6 +20,6 @@ display:'none'
 'padding-bottom':'0px'
 }
 
-for (var i in bt_css}{
+for (var i in bt_css){
 $(i).css(bt_css[i]);
 }
