@@ -1,4 +1,4 @@
-function(){
+function(t){
     var bt_css = {'.header' : {
             display : 'none'
             },
@@ -61,5 +61,5 @@ function(){
     for (var i in bt_css){
         $(i).css(bt_css[i]);
         }
-    }()
+    }($)
 
