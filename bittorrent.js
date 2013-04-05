@@ -1,4 +1,4 @@
-function(){
+function{
     var bt_css = {'.header' : {
             display : 'none'
             },
