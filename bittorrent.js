@@ -1,5 +1,5 @@
 (function(){
-    var bt_test = window.location.indexOf('bt_test=') != -1? window.location.split('bt_test=')[1].split('&')[0] : null;
+    var bt_test = window.location.href.indexOf('bt_test=') != -1? window.location.href.split('bt_test=')[1].split('&')[0] : null;
     if ((bt_test != 'bazaar') && (bt_test != 'discover')) {return}
     var bt_css = {'.header' : {
             display : 'none'
