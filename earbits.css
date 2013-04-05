@@ -19,9 +19,9 @@ display:'none'
 'nav#menu .nav-content':{
 'padding-bottom':'0px'
 }
+}
 
 for (var i in bt_css){
 alert(i);
-alert(JSON.stringify(bt_css[i]))
 $(i).css(bt_css[i]);
 }
