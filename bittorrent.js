@@ -59,9 +59,10 @@
             display:'none'
             }
         }
-    
+    $(document).ready(function(){ 
     for (var i in bt_css){
         $(i).css(bt_css[i]);
         }
+    });
     })()
 
